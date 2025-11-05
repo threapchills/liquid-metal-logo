@@ -1,0 +1,77 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  DEPLOYMENT CHECKLIST - Follow in Order                   ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+□ PART 1: UPLOAD SHADER TO GITHUB (5 min)
+  ├─ □ Go to github.com/new
+  ├─ □ Name it: "liquid-metal-logo"  
+  ├─ □ Make it PUBLIC
+  ├─ □ Create repository
+  ├─ □ Click "uploading an existing file"
+  ├─ □ Upload ALL files from liquid-metal-logo/ folder
+  │     • package.json
+  │     • vite.config.js
+  │     • index.html
+  │     • .gitignore
+  │     • README.md
+  │     • src/main.jsx
+  └─ □ Commit files
+
+□ PART 2: DEPLOY TO VERCEL (2 min)
+  ├─ □ Go to vercel.com/signup
+  ├─ □ Sign up with GitHub
+  ├─ □ Click "Add New..." → "Project"
+  ├─ □ Find "liquid-metal-logo" repo
+  ├─ □ Click "Import"
+  ├─ □ Don't change any settings
+  ├─ □ Click "Deploy"
+  ├─ □ Wait for build (shows progress bar)
+  └─ □ Copy your Vercel URL when done
+        Example: liquid-metal-logo-abc123.vercel.app
+
+□ PART 3: UPDATE PORTFOLIO (1 min)
+  ├─ □ Open index.html (the one I provided)
+  ├─ □ Find line with: YOUR-PROJECT-NAME.vercel.app
+  ├─ □ Replace with your actual Vercel URL
+  ├─ □ Go to your portfolio GitHub repo
+  ├─ □ Click on index.html
+  ├─ □ Click pencil icon to edit
+  ├─ □ Paste the updated code
+  └─ □ Scroll down, click "Commit changes"
+
+□ VERIFICATION
+  ├─ □ Visit your portfolio: portfolio.mikewhyle.com
+  ├─ □ See liquid metal logo animating
+  └─ □ Celebrate! 🎉
+
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃  ESTIMATED TOTAL TIME: 8 minutes                          ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+
+IMPORTANT URLS TO HAVE OPEN:
+• GitHub (for uploading): github.com/new
+• Vercel (for deploying): vercel.com/signup  
+• Your portfolio repo: github.com/threapchills/portfolio
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+WHAT GOES WHERE:
+
+  liquid-metal-logo/          →  New GitHub repo
+  (shader React app)             "liquid-metal-logo"
+                                     ↓
+                              Vercel deploys it
+                                     ↓
+                              Gets URL: xxx.vercel.app
+                                     ↓
+  index.html                  →  Your portfolio repo  
+  (portfolio with iframe)        "portfolio"
+  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+NEED HELP?
+• Stuck on GitHub? Their help docs: docs.github.com
+• Stuck on Vercel? Their help: vercel.com/docs
+• Build failed? Check Vercel build logs (shows errors)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

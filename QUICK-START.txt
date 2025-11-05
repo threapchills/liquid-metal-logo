@@ -1,0 +1,98 @@
+╔══════════════════════════════════════════════════════════════╗
+║  LIQUID METAL LOGO - QUICK START GUIDE                       ║
+╚══════════════════════════════════════════════════════════════╝
+
+🎯 GOAL: Get your Paper Design liquid metal shader working on your portfolio
+
+📦 WHAT YOU'VE GOT:
+   1. liquid-metal-logo/ folder - React app with your shader
+   2. index.html - Updated portfolio with iframe embed
+
+⚡ DEPLOYMENT STEPS (5-10 minutes):
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 1: Create GitHub Repository for Shader
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Go to: https://github.com/new
+2. Repository name: "liquid-metal-logo"
+3. Make it PUBLIC (important!)
+4. Click "Create repository"
+
+5. Upload files from the liquid-metal-logo/ folder:
+   - Click "uploading an existing file"
+   - Drag and drop ALL files from liquid-metal-logo/
+   - Commit the files
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 2: Deploy to Vercel
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Go to: https://vercel.com/signup
+2. Sign up with GitHub (it's FREE!)
+3. Click "Add New..." → "Project"
+4. Import your "liquid-metal-logo" repository
+5. Vercel auto-detects settings - just click "Deploy"
+6. Wait 1-2 minutes for build to complete
+
+7. 🎉 You'll get a URL like:
+   https://liquid-metal-logo-xyz123.vercel.app
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP 3: Update Your Portfolio
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Open the index.html file I provided
+2. Find this line (~line 153):
+   src="https://YOUR-PROJECT-NAME.vercel.app"
+
+3. Replace with YOUR actual Vercel URL:
+   src="https://liquid-metal-logo-xyz123.vercel.app"
+
+4. Upload to your portfolio GitHub repo
+5. Done! Your shader is live! ✨
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❌ Image not showing?
+   → Make sure your portfolio repo is PUBLIC
+   → Check the mw-logo-big.png file exists in images/ folder
+   → Try the raw GitHub URL in the shader code
+
+❌ Build failed on Vercel?
+   → Check the build logs in Vercel dashboard
+   → Make sure ALL files were uploaded to GitHub
+   → Verify package.json is in the root folder
+
+❌ Iframe shows nothing?
+   → Open the Vercel URL directly in a browser to test
+   → Check browser console for errors (F12)
+   → Make sure iframe src is correct
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FILE STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+liquid-metal-logo/
+├── package.json       ← Dependencies (Paper Design shader)
+├── vite.config.js     ← Build configuration
+├── index.html         ← App entry point
+├── src/
+│   └── main.jsx       ← Your liquid metal component
+└── README.md          ← Detailed instructions
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 TIPS:
+• Vercel gives you a free subdomain - no credit card needed
+• Build is automatic - Vercel handles all npm installs
+• You can customize the shader in src/main.jsx anytime
+• Changes to GitHub repo auto-deploy to Vercel!
+
+🚀 That's it! No terminal commands needed - everything through 
+   web interfaces. Your liquid metal logo will be embedded and 
+   animating on your portfolio in minutes!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
